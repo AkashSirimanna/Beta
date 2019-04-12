@@ -1,0 +1,85 @@
+*
+{
+	marin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar
+{
+	background-image: linear-gradient(to right,#ff512f,#dd2476);
+	color: #fff;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.navbar-nav li a 
+{
+	color: #fff;
+	font-weight : 500;
+	font-size: 15px;
+}
+
+.navbar-toggler-icon
+{
+	color: white;
+}
+
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important
+}
+
+#banner
+{
+	background-image: linear-gradient(to right,#ff512f,#dd2476);
+	color: #fff;
+	padding-top: 5%;
+}
+
+.banner-title
+{
+	font-size: 40px;
+	font-weight:600;
+	margin-top: 40px;
+}
+
+.img-instagram{
+	max-width: 20%;
+	max-height: 20%;
+}
+
+.img-banner
+{
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.img-wave{
+	width: 100%;
+}
+
+#idea
+{
+	font-family: 'K2D',sans-serif;
+}
+
+.idea-title{
+	font-family: 'K2D',sans-serif;
+	font-size: 50px;
+	font-style: bold;
+	padding-bottom: 40px;
+}

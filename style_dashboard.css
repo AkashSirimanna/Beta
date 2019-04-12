@@ -1,0 +1,57 @@
+body
+{
+	font-family: sans-serif;
+}
+
+@media (max-width: 500px) {
+  td {
+    display: block;
+  }
+}
+
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar
+{
+	background-image: linear-gradient(to right,#ff512f,#dd2476);
+	color: #fff;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.navbar-nav li a 
+{
+	color: #fff;
+	font-weight : 500;
+	font-size: 15px;
+}
+
+.navbar-toggler-icon
+{
+	color: white;
+}
+
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important
+}
+
+.img-like
+{	
+	margin: 20px;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+#dashboard
+{
+	font-family: 'K2D', sans-serif;
+	font-style: 'bold';
+	font-size: 30px
+}
